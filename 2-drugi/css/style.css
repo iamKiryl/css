@@ -1,0 +1,11 @@
+body {
+    background-color:darkgrey;
+}
+p#pierwszy::before {
+    content: "Tekst before ";
+    color: red;
+}
+P#drugi::after{
+    content: " Tekst after";
+    color: brown;
+}
