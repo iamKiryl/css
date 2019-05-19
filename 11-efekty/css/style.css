@@ -1,0 +1,27 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+#colors {
+    transition: background-color 3s linear 1s;/*linear - будет меняться цвет с постоянной скоростью*/
+    background-color:yellow;
+}
+#colors:hover {
+    background-color:blueviolet;
+}
+#box1 {
+    background-color: burlywood;
+    transition:height 2s;
+}
+#box1:hover {
+    height: 400px;
+}
+#box2 {
+    background-color: chartreuse;
+    transition: width 2s;
+}
+#box2:hover {
+    /*background-color: brown;*/
+    width: 100%;
+}
