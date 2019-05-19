@@ -1,0 +1,27 @@
+#p1 {
+    background-color: gold;
+}
+#p2 {
+    border: 2px solid #F09072;
+    background-color:antiquewhite;
+}
+#inline-elements p {
+    display: inline;
+}
+#inline-p1 {
+    background-color: blueviolet;
+}
+#inline-p2 {
+    text-decoration: underline;
+    background-color:coral;
+}
+#inline-block-elements li {
+    display: inline-block;
+    width:70px;
+    height: 70px;
+    background-color:darkseagreen;
+    margin: 10px;
+}
+#display-none {
+    display: none;/*display none visible -- разница в том, что при дисплее объект не занимает места на странице*/
+}
