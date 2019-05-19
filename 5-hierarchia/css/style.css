@@ -1,0 +1,12 @@
+p {
+    background-color: salmon !important/*!important имеет найвысший приорите, при ещё одном !important преоритет будет определятся каскадами*/
+}
+#paragraph {
+    background-color: magenta;/*поиск по ID будет иметь высший приоретет над поиску по классу*/
+}
+.paragraph {/*поиск по классу будет иметь преоритет над селектором*/
+    background-color: chartreuse;
+}
+p {
+    background-color: blue;
+}
