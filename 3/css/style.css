@@ -1,0 +1,27 @@
+#name:hover {/*hover - когда наезжаешь на обьект - он меняет цвет*/
+    background-color: aquamarine;
+}
+#name:focus {/*Меняет цвет когда находишься в поле*/
+    background-color: chocolate;
+}
+.customer:hover{
+    color:darkcyan;
+}
+.customer:first-child {/*Меняет цвет первого элемента данного класса можно вбивать любые номера и расположения элемента*/
+    color:blueviolet;
+}
+.customer:last-child{
+    color:red;
+}
+.customer:nth-child(7):hover{
+    color: green;
+}
+.customer:nth-last-child(3):hover{
+    color:pink;
+}
+.customer:nth-child(5n+1){
+    background-color:aqua;
+}
+.customer:nth-child(5n+1):hover{
+    color:crimson;
+}
