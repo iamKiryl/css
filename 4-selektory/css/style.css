@@ -1,0 +1,26 @@
+[title] {
+    background-color: burlywood;
+}
+[title="About me"] {
+    background-color:darkcyan;
+}
+a[title~="Container"]{
+    background-color:blueviolet;/*обозначает все элементы со словом в титуле контейнер*/
+}
+[title *='kill'] {
+    background-color: hotpink;
+}
+[title^="More"] {
+    background-color: crimson;
+}
+[title$="skills"]{
+    background-color: chartreuse;
+}
+[title ]:first-child {
+    background-color:gray;
+}
+nav > ul > li>a[title] {
+    background-color: darkblue;
+}
+[title]:last-child {
+    background-color:chartreuse;
